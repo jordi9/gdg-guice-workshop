@@ -1,0 +1,29 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+  
+group = 'com.jordi9'
+version = '1.0-SNAPHSOT'
+
+sourceCompatibility=1.6
+targetCompatibility=1.6
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+  def guiceVersion = '3.0'
+  
+  compile "com.google.inject:guice:${guiceVersion}"
+  
+  testCompile "org.hamcrest:hamcrest-all:1.3"
+  testCompile "org.mockito:mockito-all:1.9.5"
+  testCompile 'junit:junit:4.11'
+}
+
+task wrapper(type: Wrapper) {
+  gradleVersion = '1.3'
+}
+

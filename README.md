@@ -1,4 +1,5 @@
-gdgbcn-guice-workshop
-=====================
+GDG Guice Workshop
+==================
 
-GDG Barcelona Guice Workshop
+
+

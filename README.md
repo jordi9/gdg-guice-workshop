@@ -7,7 +7,7 @@
 
 Hacer clone del repositorio en vuestro workspace habitual:
 
-	git clone git@github.com:jordi9/gdg-guice-workshop.git
+	git clone git://github.com/jordi9/gdg-guice-workshop.git
 
 ### Gradle
 

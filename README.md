@@ -15,7 +15,7 @@ Para hacer el build utilizaremos [Gradle](http://www.gradle.org/). No hace falta
 utilizaremos el wrapper que tenemos ya incluído en el repositorio. Si lo tenéis instalado,
 podéis usar directamente vuestra instalación.
 
-Ejecutar uno de los siguientes comandos:
+Ejecutar uno de los siguientes comandos dentro del directorio donde os habéis bajado el repositorio:
 
 En *NIX, ejecutar:
 	

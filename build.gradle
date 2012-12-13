@@ -30,7 +30,7 @@ dependencies {
 
 
 task runExample01(dependsOn: 'classes', type: JavaExec) {
-  main = 'com.jordi9.guice.example01.ShowtimesLauncher'
+  main = 'com.jordi9.guice.ShowtimesLauncher'
   classpath = sourceSets.main.runtimeClasspath
 }
 

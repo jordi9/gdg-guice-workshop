@@ -26,7 +26,7 @@ public class ShowtimesTest {
   public void run_shouldCallRepo() {
     showtimes = new Showtimes(repository);
     
-    /*02*/
+    /*04*/
     
     Set<Movie> movies = showtimes.findMovies("barcelona");
     

@@ -15,9 +15,13 @@ repositories {
 
 dependencies {
   def guiceVersion = '3.0'
+  def googleHttpClientVersion = '1.12.0-beta'
   
   compile "com.google.inject:guice:${guiceVersion}"
+  compile "com.google.inject.extensions:guice-multibindings:${guiceVersion}"
   compile "com.google.guava:guava:13.0.1"
+  compile "com.google.http-client:google-http-client:${googleHttpClientVersion}"
+  compile "com.google.http-client:google-http-client-jackson2:${googleHttpClientVersion}"
   
   testCompile "org.hamcrest:hamcrest-all:1.3"
   testCompile "org.mockito:mockito-all:1.9.5"

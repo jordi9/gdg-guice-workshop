@@ -6,7 +6,7 @@ public class ShowtimesModule extends AbstractModule {
 
   @Override
   protected void configure() {
-    bind(MovieRepository.class).to(MovieRepositoryImpl.class);
+    /*02.1*/
   }
 
 }

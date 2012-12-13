@@ -4,6 +4,9 @@ import java.util.Set;
 
 import com.google.common.base.Splitter;
 import com.google.common.collect.Sets;
+import com.jordi9.guice.City;
+import com.jordi9.guice.Movie;
+import com.jordi9.guice.MovieRepository;
 
 class MovieRepositoryImpl implements MovieRepository {
 

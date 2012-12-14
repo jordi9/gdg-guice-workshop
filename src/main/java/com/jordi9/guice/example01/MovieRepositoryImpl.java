@@ -8,7 +8,7 @@ import com.jordi9.guice.City;
 import com.jordi9.guice.Movie;
 import com.jordi9.guice.MovieRepository;
 
-class MovieRepositoryImpl implements MovieRepository {
+public class MovieRepositoryImpl implements MovieRepository {
 
   @Override
   public Set<Movie> findByCity(City city) {

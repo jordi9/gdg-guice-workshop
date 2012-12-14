@@ -22,7 +22,7 @@ import com.jordi9.guice.MovieRepository;
  * <p>
  * You can find more at <a href="http://bit.ly/RqHjod">Stack Overflow</a>
  */
-class ImdbMovieRepository implements MovieRepository {
+public class ImdbMovieRepository implements MovieRepository {
 
   private final HttpRequestFactory requestFactory;
 

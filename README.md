@@ -1,5 +1,14 @@
 # GDG Guice Workshop
 
+## Instructions
+
+En el código encontraréis huecos del estilo `/*09*/`. La correspondencia entre código y número la 
+podéis encontrar en el fichero [GAPS](gdg-guice-workshop/blob/master/GAPS.md).
+
+Como hemos visto en el workshop, la solución "final" no es llenar todos los huecos, si no ir 
+incrementando la aplicación con varias implementaciones y configuraciones alternativas.
+
+Cualquier duda o problema, me podéis encontrar en twitter: [@jordi9](http://twitter.com/jordi9)
 
 ## Get ready
 
@@ -52,13 +61,10 @@ Ahora ya podéis importar el proyecto a vuestro workspace.
 
 En el caso de eclipse `File > Import > Existing Projects into workspace` 
 
-## You're set!
+### You're set
 
 Utilizaremos algunos ejemplos que vimos en la charla del pasado Google DevFest Barcelona 2012.
 Aquí tenéis los slides: [Clean Code via Dependency Injection + Guice](http://www.slideshare.net/giro9/clean-code-via-dependency-injection-guice-15097271)
 
 Ya estáis listos para trabajar!
-
-Si tenéis problemas con el setup o cualquier cosa, me podéis encontrar [en Twitter](http://twitter.com/jordi9).
-
 

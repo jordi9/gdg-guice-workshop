@@ -22,7 +22,7 @@ import com.jordi9.guice.MovieRepository;
  * More info about this can be found at 
  * <a href="http://bit.ly/VBuyTh">StackOverflow</a>
  */
-class GoogleMovieRepository implements MovieRepository {
+public class GoogleMovieRepository implements MovieRepository {
 
   private final HttpRequestFactory requestFactory;
 

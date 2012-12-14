@@ -9,7 +9,7 @@ class ShowtimesLauncher {
 
   public static void main(String[] args) {
     Injector injector = Guice.createInjector(
-        /*02*/ /*05*/ /*08*/ /*11*/
+        /*01*/ /*05*/ /*08*/ /*11*/
     );
 
     Showtimes showtimes = injector.getInstance(Showtimes.class);
